@@ -313,6 +313,11 @@
   margin-bottom: 20px;
 }
 
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column-link {
   text-decoration: none;
   color: white;
