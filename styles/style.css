@@ -49,6 +49,7 @@
   align-self: flex-end;
   line-height: 25px;
   z-index: 2;
+  font-weight: normal;
 }
 
 
@@ -93,6 +94,10 @@
 .two-columns__brief {
   width: 175px;
   color: #2f80ed;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -107,6 +112,7 @@
 
 .two-columns__paragraph {
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -158,12 +164,7 @@
   margin-bottom: 100px;
 }
 
-.table__cell {} /*У элементов table__cell в секции digits и секции kaufman
-нет ничего общего - все стили индивидуальны для этих элементов, но по заданию
-они должны относиться к блоку table__cell, поэтому я создал его, просто не написав
-стилей */
-
-.table__cell_theme_light {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
@@ -172,10 +173,12 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
+  margin: 0;
 }
 
 .table__text {
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
 }
@@ -236,6 +239,10 @@
   top: 0;
   height: 877px;
   width: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-title_theme_dark {
@@ -262,7 +269,6 @@
   min-height: 350px;
   overflow: hidden;
   background-color: #1f1f1f;
-  color: #fff;
 }
 
 .footer__columns {
@@ -272,11 +278,11 @@
   margin-bottom: 40px;
   width: 90%;
   justify-content: space-between;
-  min-height: 250px; /*Минимальная высота блока footer - 350px,
-  отступ от нижнего края страницы до элемента footer__columns должен быть равен 40px,
-  тогда, при верхнем отступе в 60px высота элемента footer__columns должна быть,
-  как минимум, 250px (350 - (40 + 60))
-  для соответствия высоты элемента требуемым отступам*/
+  min-height: 250px;
+}
+
+.footer__column {
+  color: #fff;
 }
 
 .footer__column_content_copyright {
@@ -311,6 +317,7 @@
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__column-links {
