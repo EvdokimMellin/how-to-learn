@@ -17,7 +17,3 @@
 .cards__item:first-of-type {
   margin-left: 0;
 }
-/*.cards__item:last-of-type {
-  justify-self:start;
-  background-color: red;
-}*/
