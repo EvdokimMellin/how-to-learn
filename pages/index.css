@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/rotation/__square-pic/rotation__square-pic.css);
-@import url(../blocks/rotation/__triangle-pic/rotation__triangle-pic.css);
+@import url(../blocks/rotation/_place/rotation_place_header.css);
+@import url(../blocks/rotation/_place/rotation_place_kaufman.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
