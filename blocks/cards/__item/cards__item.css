@@ -1,0 +1,26 @@
+.cards__item {
+  width: 240px;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: center;*/
+  margin-left: 100px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.cards__item:nth-of-type(4){
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.cards__item:nth-of-type(5){
+  margin-bottom: 0;
+}
+
+.cards__item:first-of-type {
+  margin-left: 0;
+}
+/*.cards__item:last-of-type {
+  justify-self:start;
+  background-color: red;
+}*/
